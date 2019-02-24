@@ -1,0 +1,89 @@
+body{
+   font-size:30px !important;
+    margin-left: 50px;
+}
+#tetris{
+    float: left;
+    border: 5px solid black;
+}
+.score{
+
+   display:inline-block;
+   margin: 30px;
+   text-align: center;
+}
+.cls01{
+    display: none;
+}
+button{
+    border: hidden;
+    width:80px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:red;
+    font-size:20px;
+}
+div{
+    font-size:25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+ canvas{
+        margin: 20px 10px 10px 20px !important;
+        border:5px solid black;
+    }
+    button{
+        background-color: red;
+        border: hidden;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top:13px !important 
+    }
+    .cls{
+        margin-top: 20px !important;
+        line-height: 0;
+    }
+    @media screen and (max-width:700px){
+    
+        canvas{
+            margin: 5px !important;
+        }
+        h3{
+            margin: 5px !important;
+        }     
+    }
+
+    
+
+
+    @media(max-width:420px){
+        body{
+            margin:15px ;
+        }
+        .score{
+            margin: 0;
+          text-align:left !important;    
+        }
+        #over{
+            margin-top: 0;
+            line-height: 30px;
+        }
+        button{
+            padding: 5px;
+        }
+        canvas{
+            margin-bottom: 0 !important;
+        }
+        } 
+
+    @media screen and (max-width:333px){
+        .cls0{
+            float: left;
+        }
+        .cls01{
+  display: inline-block;
+        }
+        #over{
+            float: left;
+        }       
+    }
